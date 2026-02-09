@@ -1,0 +1,76 @@
+@import url(https://fonts.google.com/specimen/Be+Vietnam+Pro);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+main{
+    
+    gap: 5rem;
+    padding: 0 10%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+nav ul{
+    justify-content: center;
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    font-weight: 900;
+    text-decoration: none;
+}
+.right{
+    padding: 10px;
+    border-radius: 40px;
+    background-color: hsl(12, 88%, 59%);
+    border-style: groove;
+}
+.one{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 20px;
+}
+.two{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 5rem;
+}
+.goleft h3{
+    margin-bottom: 20px;
+}
+li:marker{
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+}
+div h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+div p{
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 50%);
+    margin-bottom: 20px;
+}
+.align{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.middle{
+    text-align: center;
+    margin-top: 20px;
+}
+.inline{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+}
